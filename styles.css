@@ -87,10 +87,20 @@ h1{
 }
 
 #output{
+    margin:0 auto;
     text-align: center;
+    width:90%;
+    margin-top: 16px;
+}
+
+/*classList*/
+.text{
+    font-size: 1.5em;
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+}
+.roman{
     font-size: 2.5em;
-    margin-top: 20px;
     font-family: "Merriweather", serif;
     font-weight: bold;
-    margin-bottom: 20px;
 }
