@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(#1b1b32 0%, rgb(15, 2, 60) 50%, #1b1b32 100%);
+    background: linear-gradient(#1b1b32 0%, rgb(17, 2, 68) 50%, #1b1b32 100%);
     height:100vh;
     display: flex;
     flex-direction: column;
@@ -14,20 +14,83 @@ body {
 }
 
 h1{
+    top:12%;
+    position: absolute; 
     text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 2.5em;
+    text-shadow: black 2px 2px 2px;
 }
 
 /* Input */
 
-#input{
+#input-container{
     align-items: center;
+    position:absolute;
+    top: 30%;
+    border:white 3px solid;
+    width: 400px;
+    height: 250px;
+    background-color: #3b3b4f;
 }
 #input-text{
     text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
+#input{
+    display: flex;
+    margin:0 auto;
+    flex-direction: column;
+    width: 400px;
+    height:400px;
+    align-items: center;
+}
+#number{ 
+    margin:2.5px;
+    height:70px;
+    width: 350px;
+    border: white 1.8px solid;
+    background-color: #1b1b32;
+    box-shadow: rgba(0, 0, 0, 0.608) 2px 2px 2px;
+    font-size: 2.5em;
+    text-align:center;
+}
+#convert-btn{
+    margin:10px;
+    width: 357px;
+    height:50px;
+    margin-top:18px;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+#convert-btn:hover{
+    background-image: linear-gradient(rgb(255, 167, 34), #c57805);
+}
+
 
 /*Output*/
 
 #output{
     align-items: center;
+    border:white 3px solid;
+    position: relative;
+    top: 70%;
+    width:400px;
+    height:90px;
+    background-color: #484861;
+}
+
+#result{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
