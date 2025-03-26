@@ -76,7 +76,7 @@ h1{
 
 /*Output*/
 
-#output{
+#output-container{
     align-items: center;
     border:white 3px solid;
     position: relative;
@@ -86,7 +86,7 @@ h1{
     background-color: #484861;
 }
 
-#result{
+#output{
     text-align: center;
     font-size: 2.5em;
     margin-top: 20px;
