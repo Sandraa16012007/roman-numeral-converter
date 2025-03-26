@@ -27,7 +27,7 @@ h1{
 #input-container{
     align-items: center;
     position:absolute;
-    top: 30%;
+    top: 28%;
     border:white 3px solid;
     width: 400px;
     height: 250px;
@@ -80,7 +80,7 @@ h1{
     align-items: center;
     border:white 3px solid;
     position: relative;
-    top: 70%;
+    top: 68%;
     width:400px;
     height:90px;
     background-color: #484861;
